@@ -149,7 +149,7 @@ SHELL := bash -o pipefail
 ASFLAGS := -mcpu=arm7tdmi -march=armv4t -meabi=5 --defsym MODERN=1 --defsym $(GAME_VERSION)=1
 
 INCLUDE_DIRS := include
-INCLUDE_CPP_ARGS := $(INCLUDE_DIRS:%=-iquote %)
+INCLUDE_CPP_ARGS := $(INCLUDE_DIRS:%=-iquote % -isystem /usr/lib/picolibc/arm-none-eabi/include)
 INCLUDE_SCANINC_ARGS := $(INCLUDE_DIRS:%=-I %)
 
 ifeq ($(DEBUG),1)
@@ -584,7 +584,7 @@ $(ELF): $(LD_SCRIPT) $(OBJS) libagbsyscall
 	$(FIX) $@ -t"$(TITLE)" -c$(GAME_CODE) -m$(MAKER_CODE) -r$(REVISION) --silent
 else
 # Output .map file, memory usage readout and gc sections to clean-up unused data
-LDFLAGS = -Map ../../$(MAP) --print-memory-usage --gc-sections
+LDFLAGS = -Map ../../$(MAP) --print-memory-usage --gc-sections -L /usr/lib/picolibc/arm-none-eabi/lib/
 $(ELF): $(LD_SCRIPT) $(OBJS) libagbsyscall
 	@cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ../../$<  -o ../../$@ $(OBJS_REL) $(LIB) | cat
 	@echo "cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ../../$< -o ../../$@ <objs> <libs> | cat"
