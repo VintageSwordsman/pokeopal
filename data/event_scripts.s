@@ -1738,3 +1738,36 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/apricorn_tree.inc"
 
 	.include "data/maps/Stikx/scripts.inc"
+
+	.include "data/maps/OpalRoute1/scripts.inc"
+	.include "data/maps/OpalRoute1/text.inc"
+
+	.include "data/maps/OpalRoute2/scripts.inc"
+	.include "data/maps/OpalRoute2/text.inc"
+
+	.include "data/maps/OpalRoute4/scripts.inc"
+	.include "data/maps/OpalRoute4/text.inc"
+
+	.include "data/maps/OpalRoute3/scripts.inc"
+	.include "data/maps/OpalRoute3/text.inc"
+
+	.include "data/maps/StikxPlayerHouse/scripts.inc"
+	.include "data/maps/StikxPlayerHouse/text.inc"
+
+	.include "data/maps/StikxPlayerRoom/scripts.inc"
+	.include "data/maps/StikxPlayerRoom/text.inc"
+
+	.include "data/maps/StikxOpalMine1F/scripts.inc"
+	.include "data/maps/StikxOpalMine1F/text.inc"
+
+	.include "data/maps/StikxMiningCenter/scripts.inc"
+	.include "data/maps/StikxMiningCenter/text.inc"
+
+	.include "data/maps/StikxOpalMineB1F/scripts.inc"
+	.include "data/maps/StikxOpalMineB1F/text.inc"
+
+	.include "data/maps/StikxOpalMineB3F/scripts.inc"
+	.include "data/maps/StikxOpalMineB3F/text.inc"
+
+	.include "data/maps/Habourside/scripts.inc"
+	.include "data/maps/Habourside/text.inc"

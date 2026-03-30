@@ -1,0 +1,79 @@
+{
+  "id": "MAP_STIKX_OPAL_MINE1F",
+  "name": "StikxOpalMine1F",
+  "layout": "LAYOUT_STIKX_OPAL_MINE1F",
+  "music": "MUS_RG_MT_MOON",
+  "region_map_section": "MAPSEC_MT_MOON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 27,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 2,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_OPAL_ROUTE1",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 31,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_OPAL_ROUTE1",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 31,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 31,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_MINING_CENTER",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 31,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO"
+}

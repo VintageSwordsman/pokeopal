@@ -135,7 +135,7 @@ static void ClearFrontierRecord(void)
 static void WarpToTruck(void)
 {
     if (IS_FRLG)
-        SetWarpDestination(MAP_GROUP(MAP_STIKX), MAP_NUM(MAP_STIKX), WARP_ID_NONE, 15, 10);
+        SetWarpDestination(MAP_GROUP(MAP_STIKX_PLAYER_ROOM), MAP_NUM(MAP_STIKX_PLAYER_ROOM), WARP_ID_NONE, 1, 2);
     else
         SetWarpDestination(MAP_GROUP(MAP_INSIDE_OF_TRUCK), MAP_NUM(MAP_INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
     WarpIntoMap();

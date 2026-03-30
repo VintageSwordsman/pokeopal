@@ -1,0 +1,185 @@
+{
+  "id": "MAP_STIKX_OPAL_MINE_B1F",
+  "name": "StikxOpalMineB1F",
+  "layout": "LAYOUT_STIKX_OPAL_MINE_B1F",
+  "music": "MUS_RG_MT_MOON",
+  "region_map_section": "MAPSEC_MT_MOON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": -1,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_MINER",
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_MINER",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG",
+      "x": 2,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "x": 4,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG",
+      "x": 21,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(ZUBAT)",
+      "x": 21,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SLOWLY_IN_PLACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_MINER",
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_DAD",
+      "x": 36,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 29,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 31,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE1F",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 32,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE1F",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 35,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 38,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B3F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO"
+}

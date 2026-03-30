@@ -1,0 +1,30 @@
+{
+  "id": "MAP_STIKX_OPAL_MINE_B3F",
+  "name": "StikxOpalMineB3F",
+  "layout": "LAYOUT_STIKX_OPAL_MINE_B3F",
+  "music": "MUS_RG_MT_MOON",
+  "region_map_section": "MAPSEC_MT_MOON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": -3,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_STIKX_OPAL_MINE_B1F",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_KANTO"
+}

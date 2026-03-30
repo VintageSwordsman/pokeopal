@@ -634,4 +634,8 @@ const u16 gObjectEventPic_JigglypuffOld[] = INCBIN_U16("graphics/object_events/p
 const u16 gObjectEventPic_PidgeyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/pidgey.4bpp");
 const u16 gObjectEventPic_ClefairyOld[] = INCBIN_U16("graphics/object_events/pics/pokemon_old/clefairy.4bpp");
 
+//Opal
+const u32 gObjectEventPic_Miner[] = INCBIN_U32("graphics/object_events/pics/people/miner.4bpp");
+const u32 gObjectEventPic_Dad[] = INCBIN_U32("graphics/object_events/pics/people/dad.4bpp");
+
 #endif // IS_FRLG

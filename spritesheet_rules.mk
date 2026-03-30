@@ -4,6 +4,12 @@ FLDEFFGFXDIR := graphics/field_effects/pics
 BATINTGFXDIR := graphics/battle_interface
 MISCGFXDIR := graphics/misc
 
+$(OBJEVENTGFXDIR)/people/miner.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/dad.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/brendan/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
